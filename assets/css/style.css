@@ -1,0 +1,24 @@
+.carousel-inner img{
+    max-height: 93vh;
+    object-fit: cover;
+}
+
+.carousel-inner .c-title{
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 3rem;
+}
+
+.carousel-inner p{
+    font-size: 1.2rem;
+}
+
+.container .close{
+    display: none;
+}
+
+
+/* footer */
+.footer-links a{
+    text-decoration: none;
+}

@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="icon" type="image/svg" href="assets/img/icon/icon.svg" sizes="32x32">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Academia Team3</title>
+  </head>
+  <body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <i class="uil uil-graduation-cap"></i> Academia Team3
+          </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cursos virtuales
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="computacion.html">Pensamiento computacional</a></li>
+                <li><a class="dropdown-item" href="kali.html">Kali Linux</a></li>
+                  <li><a class="dropdown-item" href="undefined.html">Undefined</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="diseño.html">Diseño de personajes</a></li>
+                <li><a class="dropdown-item" href="botanica.html">Botanica</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Acerca de nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Contáctenos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Quejas</a></li>
+                <li><a class="dropdown-item" href="#">Horarios de atención</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Redes sociales</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Cursos" aria-label="Search">
+            <button class="btn btn-outline-info" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+</nav>
+
+    <!-- article -->
+    <div class="container">
+      <div class="row mt-5">
+        <h1>Diseño de personajes</h1>
+      </div>
+      <div class="row mb-5">
+        <div class="col">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link content-btn1 active" onclick="cambiar1()" href="#">General</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link content-btn2 " onclick="cambiar2()" href="#">Contenido</a>
+            </li>
+          </ul>
+           <div id="content1" class="content1 open">
+             <div class="row mt-5"> 
+                  <div class="col-md-4">
+                    <img src="assets/img/carousel/course4.jpg" class="img-fluid" alt="botanica">
+                    <button type="button" class="btn btn-primary mt-4">Inscríbase</button>
+                  </div>
+                    <div class="col-md-8">
+                      <h3>General</h3>
+                      <p>
+                        En este curso de autoestudio, cubriremos los conceptos básicos de cómo las empresas y otras organizaciones deberían gestionar sus cadenas de suministro. Nos sumergiremos en diferentes métodos para pronosticar la demanda, de manera que usted pueda determinar el alcance del inventario requerido de acuerdo con el giro del negocio de la empresa. También, revisaremos cuál es el modelo de un proceso de compras ordenado y eficaz, a fin de que pueda implementarlo en su empresa o departamento de compras. Finalmente, le enseñaremos herramientas para calificar y escoger a su proveedor, de acuerdo con las necesidades que se requiere satisfacer.
+                        Un curso de autoestudio se caracteriza por la construcción de un aprendizaje autónomo, colaborativo, autorregulado, rizomático y situado. El estudiante construye su conocimiento a su ritmo a través de diversas actividades y cuestionarios planteados para desarrollar destrezas y competencias, además se encuentra disponibles recursos en la plataforma: objetos de aprendizaje, lecturas, vídeos, sitios web, entre otros. En este tipo de cursos, no cuenta con el acompañamiento de un tutor virtual.
+                      </p>
+                      <table class="table table-dark">
+                        <tbody>
+                          <tr>
+                            <th scope="row">INICIO</th>
+                            <td>19 ENERO, 2022</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">FINALIZA</th>
+                            <td>22 FEBRERO, 2022</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">MATRÍCULAS</th>
+                            <td>6 DICIEMBRE, 2021 - 14 ENERO, 2022</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">MODALIDAD</th>
+                            <td>VIRTUAL</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">DURACIÓN</th>
+                            <td>64 HORAS</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="row">
+                        <div class="col-md-3">
+                          <h1 class="h5">Requisitos:</h1>
+                        </div>
+                        <div class="col-md-9">
+                          <h1 class="h5">Técnicos</h1>
+                          <ul>
+                            <li>Navegadores de Internet: Mozilla Firefox y Google Chrome. No utilice el navegador de Internet Explorer.</li>
+                          </ul>
+                          <h1 class="h5">Generales</h1>
+                          <ul>
+                            <li>
+                              Manejo del paquete básico de office.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-3">
+                          <h1 class="h5">Dirigido a:</h1>
+                        </div>
+                        <div class="col-md-9">
+                          <p>Profesionales, ejecutivos y gerentes que buscan mejorar sus habilidades técnicas y directivas en la gestión de departamentos compras.</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-3">
+                          <h1 class="h5">Certificación:</h1>
+                        </div>
+                        <div class="col-md-9">
+                          <p>Se entregará el certificado digital, cuando el estudiante haya aprobado el curso con un mínimo de 70/100 puntos.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>    
+             </div>   
+          <div id="content2" class="content2 close">
+            <div class="row mt-5">
+              <div class="col-md-4">
+                <img src="assets/img/carousel/course4.jpg" class="img-fluid" alt="botanica">
+                <button type="button" class="btn btn-primary mt-4">Inscríbase</button>
+              </div>
+              <div class="col-md-8">
+                <h1 class="h3">Unidad 1: Logística y Gestión de la Cadena de Abastecimiento (SCM)</h1>
+              <ul>
+                <li>
+                  Definición de Logística y Cadena de Abastecimiento (SCM)
+                </li>
+                <li>
+                  Definición de Logística y Cadena de Abastecimiento (SCM)
+                </li>
+                <li>
+                  Definición de Logística y Cadena de Abastecimiento (SCM)
+                </li>
+                <li>
+                  Definición de Logística y Cadena de Abastecimiento (SCM)
+                </li>
+              </ul>
+              <h1 class="h3">Unidad 2: Definiendo un Plan de Compras</h1>
+              <ul>
+                <li>
+                  Proyección de la Demanda
+                </li>
+                <li>
+                  Proyección de la Demanda
+                </li>
+                <li>
+                  Proyección de la Demanda
+                </li>
+                <li>
+                  Proyección de la Demanda
+                </li>
+              </ul>
+              <h1 class="h3">Unidad 3: Gestión de Compras</h1>
+              <ul>
+                <li>
+                  Procesos y Controles Claves en la Gestión de Compras
+                </li>
+                <li>
+                  Procesos y Controles Claves en la Gestión de Compras
+                </li>
+                <li>
+                  Procesos y Controles Claves en la Gestión de Compras
+                </li>
+              </ul>
+              <h1 class="h3">Unidad 4: Selección de Proveedores</h1>
+              <ul>
+                <li>
+                  Calificación de Proveedores
+                </li>
+                <li>
+                  Calificación de Proveedores
+                </li>
+                <li>
+                  Calificación de Proveedores
+                </li>
+                <li>
+                  Calificación de Proveedores
+                </li>
+              </ul>
+              <h1 class="h3">Unidad 5: Evaluación de competencias del Proceso de Compras</h1>
+              <ul>
+                <li>
+                  Calificación de Proveedores
+                </li>
+                <li>
+                  Calificación de Proveedores
+                </li>
+                <li>
+                  Calificación de Proveedores
+                </li>
+                <li>
+                  Calificación de Proveedores
+                </li>
+              </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+    <!-- footer -->
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="uil uil-facebook-f"></i></a>
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="uil uil-twitter-alt"></i></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="uil uil-instagram"></i></a>
+      
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="uil uil-linkedin-alt"></i></a>
+      
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="uil uil-github-alt"></i></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+      
+          <!-- Section: Form -->
+          <section class="">
+            <form action="">
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center">
+                <!--Grid column-->
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Suscríbete a nuestro boletín</strong>
+                  </p>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-md-5 col-12">
+                  <!-- Email input -->
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example21" class="form-control" />
+                  </div>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-auto">
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-outline-light mb-4">
+                    Enviar
+                  </button>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </form>
+          </section>
+          <!-- Section: Form -->
+            
+          <!-- Section: Links  -->
+        <section class="footer-links">
+            <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                    <i class="uil uil-graduation-cap"></i></i> Academia Team3
+                </h6>
+                <p>
+                    Here you can use rows and columns to organize your footer content. Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit.
+                </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                    Cursos
+                </h6>
+                <p>
+                    <a href="#!" class="text-reset">Computación</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Linux</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Botánica</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Diseño</a>
+                </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                    links
+                </h6>
+                <p>
+                    <a href="#!" class="text-reset">Precios</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Tutorias</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Proyectos</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Ayuda</a>
+                </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                    Contact
+                </h6>
+                <p><i class="uil uil-home"></i> New York, NY 10012, US</p>
+                <p>
+                    <i class="uil uil-envelope-alt"></i>
+                    info@team3.com
+                </p>
+                <p><i class="uil uil-phone"></i> + 01 234 567 88</p>
+                <p><i class="uil uil-print"></i> + 01 234 567 89</p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+            </div>
+        </section>
+        
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2021 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">academiateam3.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
