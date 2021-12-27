@@ -1,2 +1,3 @@
 # academiateam3
-Trabajo de creación de cursos mooc Grupo 3
+Es un trabajo de la Universidad para promocionar cursos MOOC que serán creados para la materia de OVAS. 
+
